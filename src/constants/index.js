@@ -115,35 +115,37 @@ const technologies = [
   },
 ];
 
-const experiences = [
-  {
-    title: "Microsoft Explore Intern",
-    company_name: "Microsoft",
-    icon: microsoft,
-    iconBg: "#383E56",
-    date: "May 2024 - July 2024",
-    points: [
-      "Spearheaded development of a student productivity platform that lets interns organize tasks, track project milestones, and collaborate across teams using Python, TypeScript, and C++ with object-oriented design",
-      "Implemented search and reporting features with efficient data structures and algorithms, reducing query time by 35%.",
-      "Integrated SQL and NoSQL databases with Azure cloud services, ensuring scalability and reliable data storage.",
-      "Debugged complex system issues, used Git/GitHub for version control, and followed the software development lifecycle (SDLC) in an agile team environment.",
-    ],
-  },
+{
+  title: "Azure Machine Learning Workshop (SWE + ML)",
+  company_name: "Microsoft Azure",
+  icon: azure,
+  iconBg: "#2563EB",
+  date: "Aug 2025 – Nov 2025",
+  points: [
+    "Built an end-to-end MLOps pipeline on Azure ML for data ingestion, experiment tracking, model training, and deployment to Azure App Service/AKS.",
+    "Containerized inference with Docker and implemented autoscaling and health probes, reducing p95 latency by 40%.",
+    "Created CI/CD workflows with GitHub Actions to automate model retraining, testing, and blue-green deployments.",
+    "Integrated PostgreSQL and Azure Blob Storage for scalable data handling and used Application Insights for monitoring and performance analytics."
+  ],
+},
+
+
 
   {
-    title: "Software Engineering Intern",
-    company_name: "Google LLC",
-    icon: google,
-    iconBg: "#E6DEDD",
-    date: "Jan 2025 - April 2025",
-    points: [
-      "Led the development of a YouTube Live feature that allowed creators to highlight Super Chats and Super Stickers during streams.",
-      "Implemented frontend and backend components with TypeScript, C++, JavaScript, HTML, and CSS for both web and mobile platforms.",
-      "Improved dashboard performance and engagement tools, leading to a 45% increase in creator–viewer interaction and stronger community participation.",
-      "Streamlined message-handling pipelines, reducing response latency by 25% and improving overall reliability.",
-    ],
-  },
- 
+    {
+  title: "Software Engineering & AI Workshop",
+  company_name: "Google LLC",
+  icon: google,
+  iconBg: "#E6DEDD",
+  date: "Nov 2025 - Dec 2025",
+  points: [
+    "Participated in Google’s 5-Day AI Agents Intensive Course, collaborating with engineers and researchers to design AI-driven solutions using Python, TypeScript, and machine learning frameworks.",
+    "Developed intelligent agent prototypes leveraging the Google Cloud ecosystem, integrating APIs, real-time data pipelines, and LLM-based reasoning models.",
+    "Optimized backend infrastructure and search pipelines on Kaggle’s platform, improving data processing efficiency by 35%.",
+    "Contributed to code reviews, debugging, and iterative model deployment under agile workflows, aligning with Google SWE best practices for scalable AI systems.",
+  ],
+},
+
   {
     title: "Machine Learning Engineering Intern",
     company_name: "Echo Mind AI",
