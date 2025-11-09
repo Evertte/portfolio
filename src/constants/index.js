@@ -115,25 +115,10 @@ const technologies = [
   },
 ];
 
-const experiences = [  
-{
-  title: "Azure Machine Learning Workshop (SWE + ML)",
-  company_name: "Microsoft Azure",
-  icon: azure,
-  iconBg: "#2563EB",
-  date: "Aug 2025 – Nov 2025",
-  points: [
-    "Built an end-to-end MLOps pipeline on Azure ML for data ingestion, experiment tracking, model training, and deployment to Azure App Service/AKS.",
-    "Containerized inference with Docker and implemented autoscaling and health probes, reducing p95 latency by 40%.",
-    "Created CI/CD workflows with GitHub Actions to automate model retraining, testing, and blue-green deployments.",
-    "Integrated PostgreSQL and Azure Blob Storage for scalable data handling and used Application Insights for monitoring and performance analytics."
-  ],
-},
-
-
-    {
+const experiences = [
+  {
   title: "Software Engineering & AI Workshop",
-  company_name: "Google LLC",
+  company_name: "Google",
   icon: google,
   iconBg: "#E6DEDD",
   date: "Nov 2025 - Dec 2025",
@@ -142,6 +127,20 @@ const experiences = [
     "Developed intelligent agent prototypes leveraging the Google Cloud ecosystem, integrating APIs, real-time data pipelines, and LLM-based reasoning models.",
     "Optimized backend infrastructure and search pipelines on Kaggle’s platform, improving data processing efficiency by 35%.",
     "Contributed to code reviews, debugging, and iterative model deployment under agile workflows, aligning with Google SWE best practices for scalable AI systems.",
+  ],
+},
+  
+  {
+  title: "Azure Machine Learning Workshop",
+  company_name: "Microsoft",
+  icon: microsoft,
+  iconBg: "#383E56",
+  date: "May 2025 - August 2025",
+  points: [
+    "Trained deep learning models on Azure ML with focus on preprocessing, experiment tracking, and tuning.",
+    "Built image classification and segmentation pipelines using TensorFlow, NumPy, and Azure ML Compute.",
+    "Managed datasets with Azure Blob Storage and PostgreSQL for scalable data handling and logging.",
+    "Tracked performance with Azure Application Insights to refine models and ensure reproducible results.",
   ],
 },
 
