@@ -115,6 +115,7 @@ const technologies = [
   },
 ];
 
+const experiences = [  
 {
   title: "Azure Machine Learning Workshop (SWE + ML)",
   company_name: "Microsoft Azure",
