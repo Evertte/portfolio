@@ -131,8 +131,6 @@ const experiences = [
 },
 
 
-
-  {
     {
   title: "Software Engineering & AI Workshop",
   company_name: "Google LLC",
